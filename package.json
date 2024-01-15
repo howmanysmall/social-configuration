@@ -1,0 +1,42 @@
+{
+  "name": "@pobammer-ts/social-configuration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.1",
+    "@rbxts/compiler-types": "2.2.0-types.0",
+    "@rbxts/types": "^1.0.739",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "eslint-plugin-unicorn": "^50.0.1",
+    "prettier": "^3.2.2",
+    "roblox-ts": "^2.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@rbxts/signal": "npm:@rbxts/rbx-better-signal@1.1.0",
+    "@rbxts/t": "^3.1.0"
+  }
+}
