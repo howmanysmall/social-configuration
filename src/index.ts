@@ -4,7 +4,7 @@
 import Signal from "@rbxts/signal";
 import { t } from "@rbxts/t";
 
-export default class SocialConfiguration<T extends Record<string, unknown>> {
+export default class SocialConfiguration<T extends object> {
 	public readonly changed = new Signal<(configuration: T) => void>();
 
 	public constructor(
