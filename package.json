@@ -9,7 +9,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "howmanysmall",
   "license": "MIT",
   "types": "out/index.d.ts",
   "files": [
