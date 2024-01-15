@@ -1,5 +1,5 @@
 {
-  "name": "@pobammer-ts/social-configuration",
+  "name": "@rbxts/social-configuration",
   "version": "1.0.0",
   "description": "",
   "main": "out/init.lua",
